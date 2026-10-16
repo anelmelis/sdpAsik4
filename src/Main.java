@@ -81,6 +81,25 @@ public class Main {
                 date.atTime(17, 0)
         );
 
+
+
+
+
+
+
+
+
+        System.out.println("\n--- TEST 6: OPEN SPACE BOOKING ---");
+
+        booking.bookSpace(
+                201,
+                "Minecraft Team",
+                8,
+                date.atTime(12, 0),
+                date.atTime(14, 0)
+        );
+
+
         System.out.println("\n=== ALL TESTS COMPLETED ===");
     }
 }
